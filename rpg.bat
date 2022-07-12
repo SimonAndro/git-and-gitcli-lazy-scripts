@@ -4,8 +4,6 @@
 
   git push 
 
- echo %errorlevel%
-
 if %errorlevel%==0 (
     echo push success!
 ) else (
