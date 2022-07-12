@@ -2,7 +2,7 @@
 
 :loop
 
-  git push | findstr done.
+  git push | findstr "done."
 
 if %errorlevel%==0 (
     echo push success!
