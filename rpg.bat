@@ -2,7 +2,7 @@
 
 :loop
 
-  git push | findstr done
+  git push 2^>^&1 | findstr done.
 
  echo %errorlevel%
 
